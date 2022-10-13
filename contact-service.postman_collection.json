@@ -6,6 +6,48 @@
 	},
 	"item": [
 		{
+			"name": "prod",
+			"item": [
+				{
+					"name": "hello-prod-api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:9000/api/hello-prod",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"hello-prod"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "bye-prod-api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:9000/bye-world-prod",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"bye-world-prod"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "IntegrationApi",
 			"event": [
 				{
@@ -396,6 +438,33 @@
 						}
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "hello-test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/api/hello-world",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"hello-world"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bye-world",
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
